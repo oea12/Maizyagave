@@ -4,7 +4,7 @@ if(mapcanvas){
   // Element exists
 
 		//Open street  Map
-		var coord = [25.74972028560637, -80.26239432883602]; // <--- coordinates here
+		var coord = [40.738270, -74.008911]; // <--- coordinates here
 
 		var map = L.map('map-canvas', { scrollWheelZoom:false}).setView(coord, 19);
 
